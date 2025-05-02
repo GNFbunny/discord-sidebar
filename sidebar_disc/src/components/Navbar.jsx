@@ -28,12 +28,12 @@ function Navbar() {
         <SidebarIcon icon={<FaPoo size="20" />} />
 
         <button
-  onClick={toggleDarkMode}
-  className="h-12 w-12 mt-2 mb-2 mx-auto rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer
-   bg-gray-300 dark:bg-gray-700 text-black dark:text-white"
->
-  🌙
-</button>
+          onClick={toggleDarkMode}
+          className="h-12 w-12 mt-2 mb-2 mx-auto rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer
+          bg-gray-300 dark:bg-gray-700 text-black dark:text-white"
+        >
+          🌙
+        </button>
 
     </div>
   );
